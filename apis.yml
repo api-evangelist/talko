@@ -1,7 +1,25 @@
 aid: talko
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talko.png
 name: Talko
-description: Talko is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Talko was a mobile business-communications startup founded by former
+  Microsoft CTO Ray Ozzie and backed by a16z. Launched in September 2014, its app let
+  mobile teams call, text, and exchange voice and video messages, recording live
+  conversations with in-call bookmarks, tagging, and asynchronous voice follow-ups.
+  Microsoft acquired the company in December 2015 to bolster Skype, and the Talko
+  service was fully shut down by March 2016. The company is defunct with no live
+  developer platform, website, or API surface; it remains in the API Evangelist
+  network as an a16z portfolio record.
 url: https://raw.githubusercontent.com/api-evangelist/talko/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,30 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: Microsoft
+x-acquired-date: '2015-12-21'
+x-shutdown-date: '2016-03'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Communications
+- Messaging
+- Voice
+- Mobile
+- Collaboration
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
